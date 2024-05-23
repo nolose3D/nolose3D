@@ -1,10 +1,10 @@
-import * as THREE from '../POC_Viewer/build/three.module.js';
-import { OrbitControls } from "../POC_Viewer/examples/jsm/controls/OrbitControls.js"
-import { GLTFLoader } from "../POC_Viewer/examples/jsm/loaders/GLTFLoader.js"
-import Stats from "../POC_Viewer/examples/jsm/libs/stats.module.js";
+import * as THREE from '../nolose3D.github.io/build/three.module.js';
+import { OrbitControls } from "../nolose3D.github.io/examples/jsm/controls/OrbitControls.js"
+import { GLTFLoader } from "../nolose3D.github.io/examples/jsm/loaders/GLTFLoader.js"
+import Stats from "../nolose3D.github.io/examples/jsm/libs/stats.module.js";
 
-import { Octree } from "../POC_Viewer/examples/jsm/math/Octree.js"
-import { Capsule } from "../POC_Viewer/examples/jsm/math/Capsule.js"
+import { Octree } from "../nolose3D.github.io/examples/jsm/math/Octree.js"
+import { Capsule } from "../nolose3D.github.io/examples/jsm/math/Capsule.js"
 
 class App {
     constructor() {
@@ -103,7 +103,7 @@ class App {
 
         const loader = new GLTFLoader();
 
-        loader.load("../POC_Viewer/data/aj_character05.glb", (gltf) => {
+        loader.load("../nolose3D.github.io/data/aj_character05.glb", (gltf) => {
             const model = gltf.scene;
             this._scene.add(model);
 
@@ -158,7 +158,7 @@ class App {
             // this._worldOctree.fromGraphNode(boxM);
         });
 
-        loader.load("../POC_Viewer/data/daejoen_step06_wall_test05.glb", (gltf) => {
+        loader.load("../nolose3D.github.io/data/daejoen_step06_wall_test05.glb", (gltf) => {
             const model = gltf.scene;
 
             this._scene.add(model);
