@@ -158,7 +158,7 @@ class App {
             // this._worldOctree.fromGraphNode(boxM);
         });
 
-        loader.load("../POC_Viewer/data/SmartLibrary_POC03.glb", (gltf) => {
+        loader.load("../POC_Viewer/data/smart03.glb", (gltf) => {
             const model = gltf.scene;
 
             this._scene.add(model);
