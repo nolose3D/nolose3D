@@ -103,8 +103,10 @@ class App {
 
         const loader = new GLTFLoader();
 
-        loader.load("../nolose3D/data/aj_character05.glb", (gltf) => {
+        loader.load("../nolose3D/data/testGirl_nolose.glb", (gltf) => {
             const model = gltf.scene;
+            model.scale.set(100, 100, 100);
+            
             this._scene.add(model);
 
             model.traverse(child => {
