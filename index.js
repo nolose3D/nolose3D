@@ -161,6 +161,8 @@ class App {
         loader.load("../nolose3D/data/smart03.glb", (gltf) => {
             const model = gltf.scene;
 
+            model.scale.set(100, 100, 100);
+
             this._scene.add(model);
 
             model.traverse(child => {
