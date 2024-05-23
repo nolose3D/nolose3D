@@ -70,7 +70,7 @@ class App {
             if(this._pressedKeys["shift"]) {
                 this._currentAnimationAction = this._animationMap["Run"];
                 // this._speed = 350;
-                this._maxSpeed = 350;
+                this._maxSpeed = 500;
                 this._acceleration = 3;                
             } else {
                 this._currentAnimationAction = this._animationMap["Walk"];                
