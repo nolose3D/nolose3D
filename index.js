@@ -1,10 +1,10 @@
-import * as THREE from '../nolose3D.github.io/build/three.module.js';
-import { OrbitControls } from "../nolose3D.github.io/examples/jsm/controls/OrbitControls.js"
-import { GLTFLoader } from "../nolose3D.github.io/examples/jsm/loaders/GLTFLoader.js"
-import Stats from "../nolose3D.github.io/examples/jsm/libs/stats.module.js";
+import * as THREE from '../nolose3D/build/three.module.js';
+import { OrbitControls } from "../nolose3D/examples/jsm/controls/OrbitControls.js"
+import { GLTFLoader } from "../nolose3D/examples/jsm/loaders/GLTFLoader.js"
+import Stats from "../nolose3D/examples/jsm/libs/stats.module.js";
 
-import { Octree } from "../nolose3D.github.io/examples/jsm/math/Octree.js"
-import { Capsule } from "../nolose3D.github.io/examples/jsm/math/Capsule.js"
+import { Octree } from "../nolose3D/examples/jsm/math/Octree.js"
+import { Capsule } from "../nolose3D/examples/jsm/math/Capsule.js"
 
 class App {
     constructor() {
